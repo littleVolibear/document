@@ -1,0 +1,4 @@
+--简写
+flume-ng agent -n a1 -c /opt/module/flume/conf/ -f /opt/module/flume/conf/flume-kafka.conf
+--非简写
+flume-ng agent --conf /opt/module/flume/conf/ --name a1 --conf-file /opt/module/flume/conf/flume-kafka.conf
